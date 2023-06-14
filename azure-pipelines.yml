@@ -1,0 +1,14 @@
+trigger:
+  branches:
+    include:
+      - master
+
+pool:
+  name: Default
+  demands:
+  - agent.name -equals vikas
+
+steps:
+- script: |
+    python main.py
+  displayName: 'Print Message'
