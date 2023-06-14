@@ -10,9 +10,6 @@ pool:
 
 steps:
 - script: |
-    echo %PATH%
-    
-    python --version
-    python main.py
+    C:\Users\Coditas\AppData\Local\Programs\Python\Python311 main.py
     echo "hi"
   displayName: 'Print Message'
