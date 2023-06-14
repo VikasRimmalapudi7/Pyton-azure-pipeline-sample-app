@@ -10,6 +10,7 @@ pool:
 
 steps:
 - script: |
+    echo %PATH%
     python --version
     python main.py
   displayName: 'Print Message'
