@@ -10,6 +10,6 @@ pool:
 
 steps:
 - script: |
-    echo python --version
+    python --version
     python main.py
   displayName: 'Print Message'
