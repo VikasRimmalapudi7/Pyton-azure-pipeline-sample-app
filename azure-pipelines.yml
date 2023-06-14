@@ -11,6 +11,8 @@ pool:
 steps:
 - script: |
     echo %PATH%
+    
     python --version
     python main.py
+    echo "hi"
   displayName: 'Print Message'
