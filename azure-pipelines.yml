@@ -10,6 +10,6 @@ pool:
 
 steps:
 - script: |
-    C:\Users\Coditas\AppData\Local\Programs\Python\Python310 main.py
+    C:\Users\Coditas\AppData\Local\Programs\Python\Python310.exe main.py
     echo "hi"
   displayName: 'Print Message'
