@@ -5,11 +5,14 @@ trigger:
 
 pool:
   name: Default
-#   demands:
-#   - agent.name -equals vikas
 
 steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
+    addToPath: true
+
 - script: |
-    C:\Users\Coditas\AppData\Local\Programs\Python\Python310.exe main.py
-    echo "hi"
+    python --version
+    python main.py
   displayName: 'Print Message'
