@@ -7,12 +7,7 @@ pool:
   name: Default
 
 steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.10.0'
-    addToPath: true
-
 - script: |
-    python --version
-    python main.py
+    "C:\\Users\\Coditas\\AppData\\Local\\Programs\\Python\\Python310\\python.exe" main.py
+    echo "hi"
   displayName: 'Print Message'
